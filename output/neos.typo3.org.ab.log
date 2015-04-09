@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking neos.typo3.org (be patient).....done
+
+
+Server Software:        nginx/1.6.2
+Server Hostname:        neos.typo3.org
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,DHE-RSA-AES256-SHA,2048,256
+
+Document Path:          /
+Document Length:        33100 bytes
+
+Concurrency Level:      100
+Time taken for tests:   16.358 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      3332900 bytes
+HTML transferred:       3310000 bytes
+Requests per second:    6.11 [#/sec] (mean)
+Time per request:       16357.568 [ms] (mean)
+Time per request:       163.576 [ms] (mean, across all concurrent requests)
+Transfer rate:          198.98 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      115  830 342.8    911    1283
+Processing:  1027 8166 4345.6   8600   15026
+Waiting:      801 8121 4355.7   8574   14972
+Total:       1260 8996 4613.9   9613   16309
+
+Percentage of the requests served within a certain time (ms)
+  50%   9613
+  66%  11669
+  75%  12817
+  80%  13582
+  90%  15322
+  95%  15580
+  98%  15731
+  99%  16309
+ 100%  16309 (longest request)

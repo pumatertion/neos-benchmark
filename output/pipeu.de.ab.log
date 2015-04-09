@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.pipeu.de (be patient).....done
+
+
+Server Software:        nginx/1.4.6
+Server Hostname:        www.pipeu.de
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,DHE-RSA-AES256-SHA,2048,256
+
+Document Path:          /de/produkte.html
+Document Length:        29594 bytes
+
+Concurrency Level:      100
+Time taken for tests:   5.707 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      2990700 bytes
+HTML transferred:       2959400 bytes
+Requests per second:    17.52 [#/sec] (mean)
+Time per request:       5707.016 [ms] (mean)
+Time per request:       57.070 [ms] (mean, across all concurrent requests)
+Transfer rate:          511.76 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      133 1059 524.1   1246    1848
+Processing:   207 2037 1050.5   2072    3857
+Waiting:      197 2008 1079.7   2058    3848
+Total:        570 3096 1408.8   3177    5705
+
+Percentage of the requests served within a certain time (ms)
+  50%   3177
+  66%   3611
+  75%   4138
+  80%   4374
+  90%   5268
+  95%   5551
+  98%   5705
+  99%   5705
+ 100%   5705 (longest request)

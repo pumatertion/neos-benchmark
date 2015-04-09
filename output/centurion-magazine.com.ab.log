@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.centurion-magazine.com (be patient).....done
+
+
+Server Software:        nginx/1.6.2
+Server Hostname:        www.centurion-magazine.com
+Server Port:            80
+
+Document Path:          /home.html
+Document Length:        51393 bytes
+
+Concurrency Level:      100
+Time taken for tests:   4.776 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      5192600 bytes
+HTML transferred:       5139300 bytes
+Requests per second:    20.94 [#/sec] (mean)
+Time per request:       4776.147 [ms] (mean)
+Time per request:       47.761 [ms] (mean, across all concurrent requests)
+Transfer rate:          1061.71 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       25  106  22.7    110     142
+Processing:   313 2599 1275.3   2664    4632
+Waiting:      234 2498 1269.8   2576    4502
+Total:        398 2705 1281.3   2749    4774
+
+Percentage of the requests served within a certain time (ms)
+  50%   2749
+  66%   3471
+  75%   3820
+  80%   4021
+  90%   4486
+  95%   4661
+  98%   4742
+  99%   4774
+ 100%   4774 (longest request)

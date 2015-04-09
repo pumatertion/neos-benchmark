@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking dortmund-ueberrascht-dich.de (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        dortmund-ueberrascht-dich.de
+Server Port:            80
+
+Document Path:          /
+Document Length:        117434 bytes
+
+Concurrency Level:      100
+Time taken for tests:   35.751 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      11762200 bytes
+HTML transferred:       11743400 bytes
+Requests per second:    2.80 [#/sec] (mean)
+Time per request:       35751.329 [ms] (mean)
+Time per request:       357.513 [ms] (mean, across all concurrent requests)
+Transfer rate:          321.29 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       91  127  39.7    121     279
+Processing: 17547 26322 5771.7  26315   35604
+Waiting:     2397 11076 5781.0  11196   20413
+Total:      17681 26449 5775.1  26429   35748
+
+Percentage of the requests served within a certain time (ms)
+  50%  26429
+  66%  30075
+  75%  31580
+  80%  32522
+  90%  34655
+  95%  34951
+  98%  35620
+  99%  35748
+ 100%  35748 (longest request)
