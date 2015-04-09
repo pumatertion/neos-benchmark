@@ -2,7 +2,7 @@ This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking neos.typo3.org (be patient).....done
+Benchmarking neos.typo3.org (be patient)
 
 
 Server Software:        nginx/1.6.2
@@ -14,30 +14,30 @@ Document Path:          /
 Document Length:        33100 bytes
 
 Concurrency Level:      100
-Time taken for tests:   16.358 seconds
-Complete requests:      100
+Time taken for tests:   68.410 seconds
+Complete requests:      500
 Failed requests:        0
-Total transferred:      3332900 bytes
-HTML transferred:       3310000 bytes
-Requests per second:    6.11 [#/sec] (mean)
-Time per request:       16357.568 [ms] (mean)
-Time per request:       163.576 [ms] (mean, across all concurrent requests)
-Transfer rate:          198.98 [Kbytes/sec] received
+Total transferred:      16664500 bytes
+HTML transferred:       16550000 bytes
+Requests per second:    7.31 [#/sec] (mean)
+Time per request:       13682.060 [ms] (mean)
+Time per request:       136.821 [ms] (mean, across all concurrent requests)
+Transfer rate:          237.89 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:      115  830 342.8    911    1283
-Processing:  1027 8166 4345.6   8600   15026
-Waiting:      801 8121 4355.7   8574   14972
-Total:       1260 8996 4613.9   9613   16309
+Connect:       81  270 354.7    101    1361
+Processing:  1106 12121 3178.1  13364   14330
+Waiting:      608 12078 3184.3  13323   14265
+Total:       1338 12391 3008.5  13475   14412
 
 Percentage of the requests served within a certain time (ms)
-  50%   9613
-  66%  11669
-  75%  12817
-  80%  13582
-  90%  15322
-  95%  15580
-  98%  15731
-  99%  16309
- 100%  16309 (longest request)
+  50%  13475
+  66%  13654
+  75%  13744
+  80%  13799
+  90%  14033
+  95%  14114
+  98%  14216
+  99%  14285
+ 100%  14412 (longest request)

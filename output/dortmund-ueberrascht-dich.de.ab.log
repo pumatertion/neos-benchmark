@@ -2,7 +2,7 @@ This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking dortmund-ueberrascht-dich.de (be patient).....done
+Benchmarking dortmund-ueberrascht-dich.de (be patient)
 
 
 Server Software:        Apache
@@ -13,30 +13,30 @@ Document Path:          /
 Document Length:        117434 bytes
 
 Concurrency Level:      100
-Time taken for tests:   35.751 seconds
-Complete requests:      100
+Time taken for tests:   134.003 seconds
+Complete requests:      500
 Failed requests:        0
-Total transferred:      11762200 bytes
-HTML transferred:       11743400 bytes
-Requests per second:    2.80 [#/sec] (mean)
-Time per request:       35751.329 [ms] (mean)
-Time per request:       357.513 [ms] (mean, across all concurrent requests)
-Transfer rate:          321.29 [Kbytes/sec] received
+Total transferred:      58811000 bytes
+HTML transferred:       58717000 bytes
+Requests per second:    3.73 [#/sec] (mean)
+Time per request:       26800.619 [ms] (mean)
+Time per request:       268.006 [ms] (mean, across all concurrent requests)
+Transfer rate:          428.59 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       91  127  39.7    121     279
-Processing: 17547 26322 5771.7  26315   35604
-Waiting:     2397 11076 5781.0  11196   20413
-Total:      17681 26449 5775.1  26429   35748
+Connect:       18  123 279.3     27    2077
+Processing: 15632 25359 4966.5  25749   44658
+Waiting:      353 9352 4748.0   9425   23213
+Total:      15664 25481 5061.9  25865   44851
 
 Percentage of the requests served within a certain time (ms)
-  50%  26429
-  66%  30075
-  75%  31580
-  80%  32522
-  90%  34655
-  95%  34951
-  98%  35620
-  99%  35748
- 100%  35748 (longest request)
+  50%  25865
+  66%  27745
+  75%  28968
+  80%  29396
+  90%  31199
+  95%  32497
+  98%  34976
+  99%  43723
+ 100%  44851 (longest request)

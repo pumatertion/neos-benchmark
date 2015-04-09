@@ -2,7 +2,7 @@ This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking www.anita.com (be patient).....done
+Benchmarking www.anita.com (be patient)
 
 
 Server Software:        Apache
@@ -13,30 +13,30 @@ Document Path:          /de_global/
 Document Length:        34047 bytes
 
 Concurrency Level:      100
-Time taken for tests:   6.444 seconds
-Complete requests:      100
+Time taken for tests:   21.131 seconds
+Complete requests:      500
 Failed requests:        0
-Total transferred:      3425000 bytes
-HTML transferred:       3404700 bytes
-Requests per second:    15.52 [#/sec] (mean)
-Time per request:       6443.774 [ms] (mean)
-Time per request:       64.438 [ms] (mean, across all concurrent requests)
-Transfer rate:          519.06 [Kbytes/sec] received
+Total transferred:      17125000 bytes
+HTML transferred:       17023500 bytes
+Requests per second:    23.66 [#/sec] (mean)
+Time per request:       4226.252 [ms] (mean)
+Time per request:       42.263 [ms] (mean, across all concurrent requests)
+Transfer rate:          791.42 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       79  112  49.0    108     416
-Processing:   452 1743 1167.1   1513    6335
-Waiting:      391 1472 710.9   1421    2999
-Total:        577 1855 1165.4   1639    6442
+Connect:       20  202 416.2     32    2390
+Processing:   373 2565 2062.0   1834   18686
+Waiting:      309 2067 1582.0   1490   14651
+Total:        437 2767 2145.9   2045   18709
 
 Percentage of the requests served within a certain time (ms)
-  50%   1639
-  66%   2234
-  75%   2344
-  80%   2439
-  90%   2918
-  95%   5206
-  98%   6434
-  99%   6442
- 100%   6442 (longest request)
+  50%   2045
+  66%   3077
+  75%   3726
+  80%   4123
+  90%   5422
+  95%   6723
+  98%   8038
+  99%  11403
+ 100%  18709 (longest request)

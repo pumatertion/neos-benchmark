@@ -2,7 +2,7 @@ This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking www.venstre.dk (be patient).....done
+Benchmarking www.venstre.dk (be patient)
 
 
 Server Software:        Apache
@@ -13,30 +13,30 @@ Document Path:          /
 Document Length:        48361 bytes
 
 Concurrency Level:      100
-Time taken for tests:   3.158 seconds
-Complete requests:      100
+Time taken for tests:   13.147 seconds
+Complete requests:      500
 Failed requests:        0
-Total transferred:      4870400 bytes
-HTML transferred:       4836100 bytes
-Requests per second:    31.67 [#/sec] (mean)
-Time per request:       3157.520 [ms] (mean)
-Time per request:       31.575 [ms] (mean, across all concurrent requests)
-Transfer rate:          1506.32 [Kbytes/sec] received
+Total transferred:      24352500 bytes
+HTML transferred:       24180500 bytes
+Requests per second:    38.03 [#/sec] (mean)
+Time per request:       2629.489 [ms] (mean)
+Time per request:       26.295 [ms] (mean, across all concurrent requests)
+Transfer rate:          1808.85 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       43  153 170.9    104     821
-Processing:   302 1505 765.2   1540    3059
-Waiting:       46  788 580.2    686    2434
-Total:        381 1657 739.5   1649    3157
+Connect:       44  614 1186.6     70    5986
+Processing:   201 1226 1548.7    740   11511
+Waiting:       41  330 432.7     78    2846
+Total:        252 1841 1963.4   1135   11614
 
 Percentage of the requests served within a certain time (ms)
-  50%   1649
-  66%   1789
-  75%   1913
-  80%   2294
-  90%   2859
-  95%   3106
-  98%   3129
-  99%   3157
- 100%   3157 (longest request)
+  50%   1135
+  66%   1788
+  75%   2217
+  80%   2667
+  90%   4523
+  95%   5590
+  98%   8652
+  99%  10138
+ 100%  11614 (longest request)

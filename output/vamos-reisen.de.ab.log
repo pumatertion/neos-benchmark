@@ -2,7 +2,7 @@ This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking www.vamos-reisen.de (be patient).....done
+Benchmarking www.vamos-reisen.de (be patient)
 
 
 Server Software:        Apache
@@ -14,30 +14,30 @@ Document Path:          /
 Document Length:        24213 bytes
 
 Concurrency Level:      100
-Time taken for tests:   29.322 seconds
-Complete requests:      100
+Time taken for tests:   103.432 seconds
+Complete requests:      500
 Failed requests:        0
-Total transferred:      2449100 bytes
-HTML transferred:       2421300 bytes
-Requests per second:    3.41 [#/sec] (mean)
-Time per request:       29321.930 [ms] (mean)
-Time per request:       293.219 [ms] (mean, across all concurrent requests)
-Transfer rate:          81.57 [Kbytes/sec] received
+Total transferred:      12245500 bytes
+HTML transferred:       12106500 bytes
+Requests per second:    4.83 [#/sec] (mean)
+Time per request:       20686.369 [ms] (mean)
+Time per request:       206.864 [ms] (mean, across all concurrent requests)
+Transfer rate:          115.62 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:      236 4449 2889.3   4777   13015
-Processing: 16303 20163 1598.9  20170   22583
-Waiting:     1106 4935 1599.0   4858    7488
-Total:      18138 24612 3842.7  26036   29319
+Connect:       83 1137 2501.3    100   11816
+Processing: 15712 17831 1436.2  17742   21597
+Waiting:      662 2686 1411.8   2581    6388
+Total:      15798 18968 3433.3  18000   29258
 
 Percentage of the requests served within a certain time (ms)
-  50%  26036
-  66%  27689
-  75%  28122
-  80%  28166
-  90%  28592
-  95%  28886
-  98%  28975
-  99%  29319
- 100%  29319 (longest request)
+  50%  18000
+  66%  18572
+  75%  18977
+  80%  19684
+  90%  26278
+  95%  27735
+  98%  28836
+  99%  28985
+ 100%  29258 (longest request)

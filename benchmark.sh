@@ -5,7 +5,7 @@ benchmark ()
     url="$1"
     logName="$2"
     ab_log="output/$logName.ab.log"
-    ab -c 100 -n 100 "$url" > "$ab_log"
+    ab -c 100 -n 500 -s 60 "$url" > "$ab_log"
 }
 
 
