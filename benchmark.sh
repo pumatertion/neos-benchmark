@@ -40,3 +40,35 @@ benchmark "$url" "$logName"
 logName="vamos-reisen.de"
 url="https://www.vamos-reisen.de/"
 benchmark "$url" "$logName"
+
+logName="1for2.nl"
+url="http://www.1for2.nl/"
+benchmark "$url" "$logName"
+
+logName="apolife.de"
+url="http://www.apolife.de/"
+benchmark "$url" "$logName"
+
+logName="bc-security.nl"
+url="http://www.bc-security.nl/"
+benchmark "$url" "$logName"
+
+logName="bc-smartsystems.nl"
+url="http://www.bc-smartsystems.nl/"
+benchmark "$url" "$logName"
+
+logName="buchung.bvb-fa.de"
+url="http://buchung.bvb-fa.de/"
+benchmark "$url" "$logName"
+
+logName="cfu-net.dk"
+url="http://www.cfu-net.dk/"
+benchmark "$url" "$logName"
+
+logName="cora-released-art.com"
+url="http://www.cora-released-art.com/"
+benchmark "$url" "$logName"
+
+logName="departures-international.com"
+url="http://www.departures-international.com/home.html"
+benchmark "$url" "$logName"

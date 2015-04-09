@@ -13,32 +13,32 @@ Document Path:          /home.html
 Document Length:        51353 bytes
 
 Concurrency Level:      100
-Time taken for tests:   21.403 seconds
+Time taken for tests:   20.568 seconds
 Complete requests:      500
-Failed requests:        22
-   (Connect: 0, Receive: 0, Length: 22, Exceptions: 0)
-Non-2xx responses:      17
-Total transferred:      24813901 bytes
-HTML transferred:       24553840 bytes
-Requests per second:    23.36 [#/sec] (mean)
-Time per request:       4280.633 [ms] (mean)
-Time per request:       42.806 [ms] (mean, across all concurrent requests)
-Transfer rate:          1132.18 [Kbytes/sec] received
+Failed requests:        10
+   (Connect: 0, Receive: 0, Length: 10, Exceptions: 0)
+Non-2xx responses:      10
+Total transferred:      25431430 bytes
+HTML transferred:       25167150 bytes
+Requests per second:    24.31 [#/sec] (mean)
+Time per request:       4113.523 [ms] (mean)
+Time per request:       41.135 [ms] (mean, across all concurrent requests)
+Transfer rate:          1207.50 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       23   84 190.0     31    1429
-Processing:    23 3771 1158.0   4011    7038
-Waiting:        0 3608 1173.4   3894    6580
-Total:         48 3854 1171.5   4044    8466
+Connect:       21   58  69.2     29     455
+Processing:    22 3678 1046.4   3998    6561
+Waiting:       22 3593 1033.5   3911    6253
+Total:         48 3736 1031.1   4029    6899
 
 Percentage of the requests served within a certain time (ms)
-  50%   4044
-  66%   4132
-  75%   4188
-  80%   4220
-  90%   4400
-  95%   5829
-  98%   6746
-  99%   6865
- 100%   8466 (longest request)
+  50%   4029
+  66%   4098
+  75%   4125
+  80%   4151
+  90%   4233
+  95%   4418
+  98%   5186
+  99%   6652
+ 100%   6899 (longest request)

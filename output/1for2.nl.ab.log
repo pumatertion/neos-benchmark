@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.1for2.nl (be patient)
+
+
+Server Software:        nginx/1.4.6
+Server Hostname:        www.1for2.nl
+Server Port:            80
+
+Document Path:          /
+Document Length:        18734 bytes
+
+Concurrency Level:      100
+Time taken for tests:   35.129 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      9482000 bytes
+HTML transferred:       9367000 bytes
+Requests per second:    14.23 [#/sec] (mean)
+Time per request:       7025.897 [ms] (mean)
+Time per request:       70.259 [ms] (mean, across all concurrent requests)
+Transfer rate:          263.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       24  611 1592.1     30   11547
+Processing:   313 5790 1642.5   6605    8967
+Waiting:      257 5734 1650.8   6551    8928
+Total:        399 6402 2222.9   6661   18188
+
+Percentage of the requests served within a certain time (ms)
+  50%   6661
+  66%   6710
+  75%   6760
+  80%   6782
+  90%   7041
+  95%  10588
+  98%  14244
+  99%  14614
+ 100%  18188 (longest request)

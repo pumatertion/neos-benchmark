@@ -10,33 +10,33 @@ Server Hostname:        dortmund-ueberrascht-dich.de
 Server Port:            80
 
 Document Path:          /
-Document Length:        117434 bytes
+Document Length:        117411 bytes
 
 Concurrency Level:      100
-Time taken for tests:   134.003 seconds
+Time taken for tests:   110.796 seconds
 Complete requests:      500
 Failed requests:        0
-Total transferred:      58811000 bytes
-HTML transferred:       58717000 bytes
-Requests per second:    3.73 [#/sec] (mean)
-Time per request:       26800.619 [ms] (mean)
-Time per request:       268.006 [ms] (mean, across all concurrent requests)
-Transfer rate:          428.59 [Kbytes/sec] received
+Total transferred:      58799500 bytes
+HTML transferred:       58705500 bytes
+Requests per second:    4.51 [#/sec] (mean)
+Time per request:       22159.209 [ms] (mean)
+Time per request:       221.592 [ms] (mean, across all concurrent requests)
+Transfer rate:          518.26 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       18  123 279.3     27    2077
-Processing: 15632 25359 4966.5  25749   44658
-Waiting:      353 9352 4748.0   9425   23213
-Total:      15664 25481 5061.9  25865   44851
+Connect:       18   99 216.7     28    2152
+Processing: 15495 20115 5012.3  18343   37749
+Waiting:      330 4722 4832.9   3066   20934
+Total:      15523 20213 5074.0  18458   37954
 
 Percentage of the requests served within a certain time (ms)
-  50%  25865
-  66%  27745
-  75%  28968
-  80%  29396
-  90%  31199
-  95%  32497
-  98%  34976
-  99%  43723
- 100%  44851 (longest request)
+  50%  18458
+  66%  19912
+  75%  20975
+  80%  21976
+  90%  28246
+  95%  34387
+  98%  35357
+  99%  37897
+ 100%  37954 (longest request)

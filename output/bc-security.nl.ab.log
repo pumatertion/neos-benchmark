@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.bc-security.nl (be patient)
+
+
+Server Software:        nginx/1.4.6
+Server Hostname:        www.bc-security.nl
+Server Port:            80
+
+Document Path:          /
+Document Length:        13129 bytes
+
+Concurrency Level:      100
+Time taken for tests:   21.356 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      6698900 bytes
+HTML transferred:       6564500 bytes
+Requests per second:    23.41 [#/sec] (mean)
+Time per request:       4271.218 [ms] (mean)
+Time per request:       42.712 [ms] (mean, across all concurrent requests)
+Transfer rate:          306.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       25  756 1472.4     37    7784
+Processing:    27 1238 3854.5     38   20308
+Waiting:       25 1223 3823.3     35   20254
+Total:         56 1994 4068.7     85   21355
+
+Percentage of the requests served within a certain time (ms)
+  50%     85
+  66%   1210
+  75%   1509
+  80%   2371
+  90%   5707
+  95%  12277
+  98%  18320
+  99%  20357
+ 100%  21355 (longest request)

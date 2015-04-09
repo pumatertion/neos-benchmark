@@ -14,30 +14,30 @@ Document Path:          /de/produkte.html
 Document Length:        29594 bytes
 
 Concurrency Level:      100
-Time taken for tests:   28.716 seconds
+Time taken for tests:   30.082 seconds
 Complete requests:      500
 Failed requests:        0
 Total transferred:      14953500 bytes
 HTML transferred:       14797000 bytes
-Requests per second:    17.41 [#/sec] (mean)
-Time per request:       5743.114 [ms] (mean)
-Time per request:       57.431 [ms] (mean, across all concurrent requests)
-Transfer rate:          508.54 [Kbytes/sec] received
+Requests per second:    16.62 [#/sec] (mean)
+Time per request:       6016.432 [ms] (mean)
+Time per request:       60.164 [ms] (mean, across all concurrent requests)
+Transfer rate:          485.44 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       90  815 1786.1    111   12683
-Processing:   219 4397 1574.3   5380    6029
-Waiting:      193 4379 1578.1   5367    5995
-Total:        444 5212 2212.8   5581   18147
+Connect:       91  573 1233.1    111    8015
+Processing:   410 4878 1417.5   5572    6235
+Waiting:      214 4860 1420.5   5555    6202
+Total:        712 5451 1732.9   5714   13816
 
 Percentage of the requests served within a certain time (ms)
-  50%   5581
-  66%   5645
-  75%   5692
-  80%   5750
-  90%   6379
-  95%   9020
-  98%  13068
-  99%  13629
- 100%  18147 (longest request)
+  50%   5714
+  66%   5811
+  75%   5905
+  80%   5950
+  90%   6130
+  95%   8417
+  98%  10965
+  99%  11510
+ 100%  13816 (longest request)

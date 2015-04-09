@@ -10,33 +10,33 @@ Server Hostname:        www.venstre.dk
 Server Port:            80
 
 Document Path:          /
-Document Length:        48361 bytes
+Document Length:        48260 bytes
 
 Concurrency Level:      100
-Time taken for tests:   13.147 seconds
+Time taken for tests:   13.172 seconds
 Complete requests:      500
 Failed requests:        0
-Total transferred:      24352500 bytes
-HTML transferred:       24180500 bytes
-Requests per second:    38.03 [#/sec] (mean)
-Time per request:       2629.489 [ms] (mean)
-Time per request:       26.295 [ms] (mean, across all concurrent requests)
-Transfer rate:          1808.85 [Kbytes/sec] received
+Total transferred:      24302000 bytes
+HTML transferred:       24130000 bytes
+Requests per second:    37.96 [#/sec] (mean)
+Time per request:       2634.473 [ms] (mean)
+Time per request:       26.345 [ms] (mean, across all concurrent requests)
+Transfer rate:          1801.68 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       44  614 1186.6     70    5986
-Processing:   201 1226 1548.7    740   11511
-Waiting:       41  330 432.7     78    2846
-Total:        252 1841 1963.4   1135   11614
+Connect:       41  691 1593.8     71    8322
+Processing:   200 1140 1647.2    639   13082
+Waiting:       42  437 953.9     88   10683
+Total:        245 1831 2424.3    865   13171
 
 Percentage of the requests served within a certain time (ms)
-  50%   1135
-  66%   1788
-  75%   2217
-  80%   2667
-  90%   4523
-  95%   5590
-  98%   8652
-  99%  10138
- 100%  11614 (longest request)
+  50%    865
+  66%   1479
+  75%   1938
+  80%   2712
+  90%   4416
+  95%   7374
+  98%  10156
+  99%  11658
+ 100%  13171 (longest request)

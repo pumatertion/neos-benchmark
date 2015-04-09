@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.cfu-net.dk (be patient)
+
+
+Server Software:        Apache
+Server Hostname:        www.cfu-net.dk
+Server Port:            80
+
+Document Path:          /
+Document Length:        3637 bytes
+
+Concurrency Level:      100
+Time taken for tests:   28.734 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      1908000 bytes
+HTML transferred:       1818500 bytes
+Requests per second:    17.40 [#/sec] (mean)
+Time per request:       5746.883 [ms] (mean)
+Time per request:       57.469 [ms] (mean, across all concurrent requests)
+Transfer rate:          64.84 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       20  132 308.8     28    1544
+Processing:   312 4632 6874.7   1478   27546
+Waiting:      310 4630 6874.4   1478   27543
+Total:        335 4764 6957.8   1538   27759
+
+Percentage of the requests served within a certain time (ms)
+  50%   1538
+  66%   3473
+  75%   5490
+  80%   6903
+  90%  16672
+  95%  23849
+  98%  25757
+  99%  26713
+ 100%  27759 (longest request)

@@ -11,33 +11,33 @@ Server Port:            443
 SSL/TLS Protocol:       TLSv1,DHE-RSA-AES128-SHA,2048,128
 
 Document Path:          /
-Document Length:        24213 bytes
+Document Length:        24231 bytes
 
 Concurrency Level:      100
-Time taken for tests:   103.432 seconds
+Time taken for tests:   103.349 seconds
 Complete requests:      500
 Failed requests:        0
-Total transferred:      12245500 bytes
-HTML transferred:       12106500 bytes
-Requests per second:    4.83 [#/sec] (mean)
-Time per request:       20686.369 [ms] (mean)
-Time per request:       206.864 [ms] (mean, across all concurrent requests)
-Transfer rate:          115.62 [Kbytes/sec] received
+Total transferred:      12254500 bytes
+HTML transferred:       12115500 bytes
+Requests per second:    4.84 [#/sec] (mean)
+Time per request:       20669.726 [ms] (mean)
+Time per request:       206.697 [ms] (mean, across all concurrent requests)
+Transfer rate:          115.80 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:       83 1137 2501.3    100   11816
-Processing: 15712 17831 1436.2  17742   21597
-Waiting:      662 2686 1411.8   2581    6388
-Total:      15798 18968 3433.3  18000   29258
+Connect:       85 1210 2728.7    100   14227
+Processing: 15691 17709 1385.3  17595   21143
+Waiting:      645 2541 1357.2   2468    5863
+Total:      15785 18920 3388.0  17889   30380
 
 Percentage of the requests served within a certain time (ms)
-  50%  18000
-  66%  18572
-  75%  18977
-  80%  19684
-  90%  26278
-  95%  27735
-  98%  28836
-  99%  28985
- 100%  29258 (longest request)
+  50%  17889
+  66%  18623
+  75%  19206
+  80%  19969
+  90%  25955
+  95%  27100
+  98%  29054
+  99%  29285
+ 100%  30380 (longest request)
